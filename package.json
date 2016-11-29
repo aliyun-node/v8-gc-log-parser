@@ -11,6 +11,10 @@
     "name": "Joyee Cheung",
     "email": "joyeec9h3@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliyun-node/v8-gc-log-parser.git"
+  },
   "maintainers": [
     {
       "name": "Joyee Cheung",
