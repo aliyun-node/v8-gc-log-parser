@@ -1,0 +1,93 @@
+[
+  {
+    "pid": 28987,
+    "isolate": "0x101804a00",
+    "time_since_init": 12910,
+    "data": {
+      "collector": "mark_sweep",
+      "start_object_size": 58.8,
+      "end_object_size": 51,
+      "start_memory_size": 95.9,
+      "end_memory_size": 96.9,
+      "pause": 3.8,
+      "external_time": 0,
+      "step_description": "+ 8.2 ms in 101 steps since start of marking, biggest step 0.9 ms"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 51548,
+    "isolate": "0x102004600",
+    "time_since_init": 3912,
+    "data": {
+      "pause": 2.4,
+      "mutator": 383.5,
+      "gc": "s"
+    },
+    "type": "nvp"
+  },
+  {
+    "pid": 51548,
+    "isolate": "0x102004600",
+    "time_since_init": 3912,
+    "data": {
+      "pause": 2.4,
+      "mutator": 383.5,
+      "gc": "s"
+    },
+    "type": "nvp"
+  },
+  {
+    "pid": 51548,
+    "isolate": "0x102004600",
+    "time_since_init": 3912,
+    "data": {
+      "pause": 2.4,
+      "mutator": 383.5,
+      "gc": "s"
+    },
+    "type": "nvp"
+  },
+  {
+    "pid": 15368,
+    "isolate": "0x102004600",
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "used": 375108,
+        "available": 1091260
+      },
+      "new_space": {
+        "used": 5428,
+        "available": 10691,
+        "committed": 32768
+      },
+      "old_space": {
+        "used": 201516,
+        "available": 13911,
+        "committed": 219092
+      },
+      "code_space": {
+        "used": 1287,
+        "available": 974
+      },
+      "map_space": {
+        "used": 267,
+        "available": 802,
+        "committed": 1104
+      },
+      "large_object_space": {
+        "used": 113283,
+        "available": 1090219,
+        "committed": 116000
+      },
+      "all_spaces": {
+        "used": 321784,
+        "available": 1116598,
+        "committed": 372036
+      },
+      "external_memory_reported": 16,
+      "total_time_spent_in_gc": 198.4
+    }
+  }
+]

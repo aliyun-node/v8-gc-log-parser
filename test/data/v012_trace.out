@@ -1,0 +1,49 @@
+[
+  {
+    "pid": 88872,
+    "version": "v0.12.x",
+    "time_since_init": 90523,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 1132.1,
+      "end_object_size": 1119.2,
+      "start_memory_size": 1214.5,
+      "end_memory_size": 1215.5,
+      "pause": 1.5,
+      "gc_reason": "allocation failure"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 88872,
+    "version": "v0.12.x",
+    "time_since_init": 90612,
+    "data": {
+      "collector": "mark_sweep",
+      "start_object_size": 1130.7,
+      "end_object_size": 1115.4,
+      "start_memory_size": 1215.5,
+      "end_memory_size": 1217.5,
+      "pause": 10.3,
+      "step_description": "+ 14.3 ms in 21 steps since start of marking, biggest step 3.5 ms",
+      "gc_reason": "GC interrupt",
+      "collector_reason": "GC in old space requested"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 88872,
+    "version": "v0.12.x",
+    "time_since_init": 111427,
+    "data": {
+      "collector": "mark_sweep",
+      "start_object_size": 1357.4,
+      "end_object_size": 1357.4,
+      "start_memory_size": 1444.5,
+      "end_memory_size": 1444.5,
+      "pause": 38.7,
+      "gc_reason": "last resort gc"
+    },
+    "type": "trace"
+  }
+]

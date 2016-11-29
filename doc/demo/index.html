@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>V8 GC Log ParserDemo</title>
+  <style>
+    .log {
+      white-space: pre-wrap;
+      max-width: 1000px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .log[contenteditable=true] {
+      outline: 1px solid #bbbbbb;
+      min-height: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Choose type of logs</h2>
+  <div>
+    <button class="j-log-switch" id="simple" value="simple">Simple</button>
+    <button class="j-log-switch" id="verbose" value="verbose">Verbose</button>
+    <button class="j-log-switch" id="NVP" value="nvp">NVP</button>
+    <button id="custom" value="custom">Custom input</button>
+  </div>
+  
+  <h2>Log</h2>
+  <pre id="log" class="log"></pre>
+  <button id="parse" class="hidden">parse</button>
+
+  <h2>Result</h2>
+  <pre id="result" class="result"></pre>
+  <script src="./bundle.js"></script>
+</body>
+</html>

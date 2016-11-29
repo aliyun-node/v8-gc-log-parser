@@ -1,0 +1,12 @@
+[87120] Memory allocator,   used:  40420 KB, available: 1458716 KB
+[87120] New space,          used:    532 KB, available:   1515 KB, committed:   4096 KB
+[87120] Old pointers,       used:    972 KB, available:      0 KB, committed:   1903 KB
+[87120] Old data space,     used:    801 KB, available:      1 KB, committed:   1199 KB
+[87120] Code space,         used:    558 KB, available:      0 KB, committed:    996 KB
+[87120] Map space,          used:    118 KB, available:      0 KB, committed:    128 KB
+[87120] Cell space,         used:      4 KB, available:      0 KB, committed:    128 KB
+[87120] PropertyCell space, used:     26 KB, available:      0 KB, committed:     64 KB
+[87120] Large object space, used:      0 KB, available: 1457675 KB, committed:      0 KB
+[87120] All spaces,         used:   3013 KB, available:   1517 KB, committed:   8515 KB
+[87120] External memory reported:      8 KB
+[87120] Total time spent in GC  : 1.8 ms

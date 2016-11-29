@@ -1,0 +1,19 @@
+[28987:0x101804a00]    12910 ms: Mark-sweep 58.8 (95.9) -> 51.0 (96.9) MB, 3.8 / 0 ms (+ 8.2 ms in 101 steps since start of marking, biggest step 0.9 ms) [GC interrup
+
+[51548:0x102004600]     3912 ms: pause=2.4 mutator=383.5 gc=s reduce_memory=
+
+[51548:0x102004600]  
+
+[51548:0x102004600]     3912 ms: pause=2.4 mutator=383.5 gc=s reduce_memory          
+
+[51548:0x102004600]     3912 ms: pause=2.4 mutator=383.5 gc=s     
+
+[15368:0x102004600] Memory allocator,   used: 375108 KB, available: 1091260 KB
+[15368:0x102004600] New space,          used:   5428 KB, available:  10691 KB, committed:  32768 KB
+[15368:0x102004600] Old space,          used: 201516 KB, available:  13911 KB, committed: 219092 KB
+[15368:0x102004600] Code space,         used:   1287 KB, available:    974 KB, committed          
+[15368:0x102004600] Map space,          used:    267 KB, available:    802 KB, committed:   1104 KB    
+[15368:0x102004600] Large object space, used: 113283 KB, available: 1090219 KB, committed: 116000 KB   
+[15368:0x102004600] All spaces,         used: 321784 KB, available: 1116598 KB, committed: 372036 KB
+[15368:0x102004600] External memory reported:     16 KB  
+[15368:0x102004600] Total time spent in GC  : 198.4 ms 

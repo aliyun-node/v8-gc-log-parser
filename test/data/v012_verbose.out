@@ -1,0 +1,60 @@
+[
+  {
+    "pid": 87120,
+    "version": "v0.12.x",
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "used": 40420,
+        "available": 1458716
+      },
+      "new_space": {
+        "used": 532,
+        "available": 1515,
+        "committed": 4096
+      },
+      "old_pointers": {
+        "used": 972,
+        "available": 0,
+        "committed": 1903
+      },
+      "old_data_space": {
+        "used": 801,
+        "available": 1,
+        "committed": 1199
+      },
+      "code_space": {
+        "used": 558,
+        "available": 0,
+        "committed": 996
+      },
+      "map_space": {
+        "used": 118,
+        "available": 0,
+        "committed": 128
+      },
+      "cell_space": {
+        "used": 4,
+        "available": 0,
+        "committed": 128
+      },
+      "property_cell_space": {
+        "used": 26,
+        "available": 0,
+        "committed": 64
+      },
+      "large_object_space": {
+        "used": 0,
+        "available": 1457675,
+        "committed": 0
+      },
+      "all_spaces": {
+        "used": 3013,
+        "available": 1517,
+        "committed": 8515
+      },
+      "external_memory_reported": 8,
+      "total_time_spent_in_gc": 1.8
+    }
+  }
+]

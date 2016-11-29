@@ -1,0 +1,88 @@
+[
+  {
+    "pid": 7144,
+    "isolate": "0x102004a00",
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "used": 111556,
+        "available": 1387580
+      },
+      "new_space": {
+        "used": 1497,
+        "available": 14626,
+        "committed": 32248
+      },
+      "old_space": {
+        "used": 60641,
+        "available": 9666,
+        "committed": 70398
+      },
+      "code_space": {
+        "used": 1767,
+        "available": 205,
+        "committed": 2266
+      },
+      "map_space": {
+        "used": 273,
+        "available": 777,
+        "committed": 1070
+      },
+      "large_object_space": {
+        "used": 0,
+        "available": 1386539,
+        "committed": 0
+      },
+      "all_spaces": {
+        "used": 64179,
+        "available": 1411816,
+        "committed": 105982
+      },
+      "external_memory_reported": 24,
+      "total_time_spent_in_gc": 64.9
+    }
+  },
+  {
+    "pid": 7144,
+    "isolate": "0x102004a00",
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "used": 112580,
+        "available": 1386556
+      },
+      "new_space": {
+        "used": 203,
+        "available": 15920,
+        "committed": 32248
+      },
+      "old_space": {
+        "used": 60652,
+        "available": 10012,
+        "committed": 71406
+      },
+      "code_space": {
+        "used": 1672,
+        "available": 564,
+        "committed": 2266
+      },
+      "map_space": {
+        "used": 238,
+        "available": 812,
+        "committed": 1070
+      },
+      "large_object_space": {
+        "used": 0,
+        "available": 1385515,
+        "committed": 0
+      },
+      "all_spaces": {
+        "used": 62767,
+        "available": 1412825,
+        "committed": 106990
+      },
+      "external_memory_reported": 16,
+      "total_time_spent_in_gc": 68.1
+    }
+  }
+]

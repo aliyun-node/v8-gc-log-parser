@@ -1,0 +1,5 @@
+[10114:0x102004600] Increasing marking speed to 3 due to high promotion rate[10114:0x102004600] Heap growing factor 1.1 based on mu=0.970, speed_ratio=500 (gc=24949572, mutator=49856)
+[10114:0x102004600] Grow: old size: 1317506 KB, new limit: 1375553 KB (1.1)
+[10114:0x102004600] Memory reducer: call rate 3.227, high alloc, foreground
+[10114:0x102004600] Memory reducer: waiting for 8000 ms
+[15368:0x102004600] Memory reducer: started GC #1

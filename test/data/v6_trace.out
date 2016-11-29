@@ -1,0 +1,53 @@
+[
+  {
+    "pid": 43417,
+    "isolate": "0x102004600",
+    "time_since_init": 9709,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 344.4,
+      "end_object_size": 342.8,
+      "start_memory_size": 379.7,
+      "end_memory_size": 387.7,
+      "pause": 6.6,
+      "external_time": 0,
+      "gc_reason": "allocation failure"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 43417,
+    "isolate": "0x102004600",
+    "time_since_init": 9869,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 408.3,
+      "end_object_size": 406.5,
+      "start_memory_size": 445.5,
+      "end_memory_size": 456.5,
+      "pause": 6.5,
+      "external_time": 0,
+      "step_description": "+ 8.0 ms in 60 steps since last GC",
+      "gc_reason": "allocation failure"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 43417,
+    "isolate": "0x102004600",
+    "time_since_init": 9932,
+    "data": {
+      "collector": "mark_sweep",
+      "start_object_size": 428.7,
+      "end_object_size": 134.8,
+      "start_memory_size": 477,
+      "end_memory_size": 181.8,
+      "pause": 10.7,
+      "external_time": 0,
+      "step_description": "+ 9.0 ms in 110 steps since start of marking, biggest step 2.3 ms",
+      "gc_reason": "GC interrupt",
+      "collector_reason": "GC in old space requested"
+    },
+    "type": "trace"
+  }
+]

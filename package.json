@@ -1,0 +1,26 @@
+{
+  "name": "v8-gc-log-parser",
+  "version": "1.0.0",
+  "description": "Parser for V8 Garbage Collection Logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js | ./node_modules/.bin/tap-spec",
+    "coverage": "istanbul cover test/index.js | ./node_modules/.bin/tap-spec"
+  },
+  "author": {
+    "name": "Joyee Cheung",
+    "email": "joyeec9h3@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "Joyee Cheung",
+      "email": "joyeec9h3@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  }
+}

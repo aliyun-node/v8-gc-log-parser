@@ -1,0 +1,3 @@
+[88872]    90523 ms: Scavenge 1132.1 (1214.5) -> 1119.2 (1215.5) MB, 1.5 ms [allocation failure].
+[88872]    90612 ms: Mark-sweep 1130.7 (1215.5) -> 1115.4 (1217.5) MB, 10.3 ms (+ 14.3 ms in 21 steps since start of marking, biggest step 3.5 ms) [GC interrupt] [GC in old space requested].
+[88872]   111427 ms: Mark-sweep 1357.4 (1444.5) -> 1357.4 (1444.5) MB, 38.7 ms [last resort gc].

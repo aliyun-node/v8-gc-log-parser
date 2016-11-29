@@ -1,0 +1,241 @@
+[
+  {
+    "pid": 15368,
+    "isolate": "0x102004600",
+    "time_since_init": 6314,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 181.6,
+      "end_object_size": 180.5,
+      "start_memory_size": 213.4,
+      "end_memory_size": 224.4,
+      "pause": 7.3,
+      "external_time": 0,
+      "gc_reason": "allocation failure"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 15368,
+    "isolate": "0x102004600",
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "used": 229828,
+        "available": 1236540
+      },
+      "new_space": {
+        "used": 3903,
+        "available": 12216,
+        "committed": 32768
+      },
+      "old_space": {
+        "used": 62965,
+        "available": 6373,
+        "committed": 70612
+      },
+      "code_space": {
+        "used": 1270,
+        "available": 43,
+        "committed": 3072
+      },
+      "map_space": {
+        "used": 267,
+        "available": 802,
+        "committed": 1104
+      },
+      "large_object_space": {
+        "used": 116408,
+        "available": 1235499,
+        "committed": 119200
+      },
+      "all_spaces": {
+        "used": 184814,
+        "available": 1254935,
+        "committed": 226756
+      },
+      "external_memory_reported": 16,
+      "total_time_spent_in_gc": 63.6
+    }
+  },
+  {
+    "pid": 15368,
+    "isolate": "0x102004600",
+    "time_since_init": 8049,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 406,
+      "end_object_size": 404.3,
+      "start_memory_size": 440.6,
+      "end_memory_size": 452.6,
+      "pause": 5.9,
+      "external_time": 0,
+      "step_description": "+ 6.4 ms in 42 steps since last GC",
+      "gc_reason": "allocation failure"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 15368,
+    "isolate": "0x102004600",
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "used": 463460,
+        "available": 1002908
+      },
+      "new_space": {
+        "used": 7345,
+        "available": 8774,
+        "committed": 32768
+      },
+      "old_space": {
+        "used": 128565,
+        "available": 9346,
+        "committed": 140244
+      },
+      "code_space": {
+        "used": 1264,
+        "available": 59,
+        "committed": 3072
+      },
+      "map_space": {
+        "used": 267,
+        "available": 802,
+        "committed": 1104
+      },
+      "large_object_space": {
+        "used": 276568,
+        "available": 1001867,
+        "committed": 283200
+      },
+      "all_spaces": {
+        "used": 414010,
+        "available": 1020849,
+        "committed": 460388
+      },
+      "external_memory_reported": 24,
+      "total_time_spent_in_gc": 128.8
+    }
+  },
+  {
+    "pid": 15368,
+    "isolate": "0x102004600",
+    "time_since_init": 8149,
+    "data": {
+      "collector": "mark_sweep",
+      "start_object_size": 435.2,
+      "end_object_size": 137.5,
+      "start_memory_size": 480.9,
+      "end_memory_size": 184.8,
+      "pause": 6.4,
+      "external_time": 0,
+      "step_description": "+ 7.6 ms in 112 steps since start of marking, biggest step 2.0 ms",
+      "gc_reason": "GC interrupt",
+      "collector_reason": "GC in old space requested"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 15368,
+    "isolate": "0x102004600",
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "used": 189252,
+        "available": 1277116
+      },
+      "new_space": {
+        "used": 3879,
+        "available": 12240,
+        "committed": 32768
+      },
+      "old_space": {
+        "used": 134586,
+        "available": 9839,
+        "committed": 148436
+      },
+      "code_space": {
+        "used": 1249,
+        "available": 0,
+        "committed": 3072
+      },
+      "map_space": {
+        "used": 265,
+        "available": 0,
+        "committed": 1104
+      },
+      "large_object_space": {
+        "used": 781,
+        "available": 1276075,
+        "committed": 800
+      },
+      "all_spaces": {
+        "used": 140762,
+        "available": 1298154,
+        "committed": 186180
+      },
+      "external_memory_reported": 24,
+      "total_time_spent_in_gc": 135.2
+    }
+  },
+  {
+    "pid": 15368,
+    "isolate": "0x102004600",
+    "time_since_init": 9874,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 315.6,
+      "end_object_size": 314.2,
+      "start_memory_size": 357.3,
+      "end_memory_size": 366.3,
+      "pause": 6.7,
+      "external_time": 0,
+      "gc_reason": "allocation failure"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 15368,
+    "isolate": "0x102004600",
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "used": 375108,
+        "available": 1091260
+      },
+      "new_space": {
+        "used": 5428,
+        "available": 10691,
+        "committed": 32768
+      },
+      "old_space": {
+        "used": 201516,
+        "available": 13911,
+        "committed": 219092
+      },
+      "code_space": {
+        "used": 1287,
+        "available": 974,
+        "committed": 3072
+      },
+      "map_space": {
+        "used": 267,
+        "available": 802,
+        "committed": 1104
+      },
+      "large_object_space": {
+        "used": 113283,
+        "available": 1090219,
+        "committed": 116000
+      },
+      "all_spaces": {
+        "used": 321784,
+        "available": 1116598,
+        "committed": 372036
+      },
+      "external_memory_reported": 16,
+      "total_time_spent_in_gc": 198.4
+    }
+  }
+]

@@ -1,0 +1,11 @@
+[28987:0x101804a00]    12910: Mark-sweep 58.8 (95.9) -> 51.0 (96.9) MB, 3.8 / 0 ms (+ 8.2 ms in 101 steps since start of marking, biggest step 0.9 ms) [GC interrupt] [GC in old space requested].
+[28987:0x101804a00]    12910 ms: Mark-sweep 58.8 (95.9) -> 51.0 (96.9) MB FOO
+[28987:0x101804a00]    12910: Ooo 58.8 (95.9) -> 51.0 (96.9) MB, 3.8 / 0 ms (+ 8.2 ms in 101 steps since start of marking, biggest step 0.9 ms) [GC interrupt] [GC in old space requested].
+[28987:0x101804a00]    12860 ms: Scavenge 64.4 (92.9) 51.6 (95.9) MB, 2.7 / 0 ms (+ 0.1 ms in 29 steps since last GC) [allocation failure].
+[28987:0x101804a00]    12860 ms: Scavenge 64.4 (92.9) -> 51.6 (95.9) MB, 2.7 (+ 0.1 ms in 29 steps since last GC) [allocation failure].
+[28987:0x101804a00    12910 ms: Mark-sweep 58.8 (95.9) -> 51.0 (96.9) MB, 3.8 / 0 ms (+ 8.2 ms in 101 steps since start of marking, biggest step 0.9 ms) [GC interrupt] [GC in old space requested].
+[28987:0x101804a00]    12910 ms Mark-sweep 58.8 (95.9) -> 51.0 (96.9) MB, 3.8 / 0 ms (+ 8.2 ms in 101 steps since start of marking, biggest step 0.9 ms) [GC interrupt] [GC in old space requested].
+[28987:0x101804a00]    12910 ms
+[28987:0x101804a00]    12910 ms Mark-sweep 58.8 (95.9) -> 51.0 (96.9) MB, 3.8 / 0 ms
+[28987:0x101804a00]    12910 ms Mark-sweep
+[28987:0x101804a00]    12910 ms Mark-sweep 58.8 (95.9) -> 51.0 (96.9) MB
