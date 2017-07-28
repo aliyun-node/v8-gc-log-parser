@@ -4,8 +4,7 @@
   "description": "Parser for V8 Garbage Collection Logs",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js | ./node_modules/.bin/tap-spec",
-    "coverage": "istanbul cover test/index.js | ./node_modules/.bin/tap-spec"
+    "test": "./node_modules/.bin/jest test/index.test.js"
   },
   "author": {
     "name": "Joyee Cheung",
@@ -27,7 +26,6 @@
   "license": "MIT",
   "devDependencies": {
     "istanbul": "^0.4.5",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.6.2"
+    "jest": "^20.0.4"
   }
 }
