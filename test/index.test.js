@@ -49,69 +49,6 @@ test('ignore ill-formed nvp input', () => {
   expect(result.length).toBe(0);
 });
 
-test('v6 trace_gc', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v6_trace.input);
-  let expected = JSON.parse(files.v6_trace.output);
-  expect(result).toEqual(expected);
-});
-
-test('v4 trace_gc', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v4_trace.input);
-  let expected = JSON.parse(files.v4_trace.output);
-  expect(result).toEqual(expected);
-});
-
-test('v012 trace_gc', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v012_trace.input);
-  let expected = JSON.parse(files.v012_trace.output);
-  expect(result).toEqual(expected);
-});
-
-test('v6 trace_gc_nvp', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v6_nvp.input);
-  let expected = JSON.parse(files.v6_nvp.output);
-  expect(result).toEqual(expected);
-});
-
-test('v4 trace_gc_nvp', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v4_nvp.input);
-  let expected = JSON.parse(files.v4_nvp.output);
-  expect(result).toEqual(expected);
-});
-
-test('v012 trace_gc_nvp', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v012_nvp.input);
-  let expected = JSON.parse(files.v012_nvp.output);
-  expect(result).toEqual(expected);
-});
-
-test('v6 `--trace_gc_verbose', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v6_verbose.input);
-  let expected = JSON.parse(files.v6_verbose.output);
-  expect(result).toEqual(expected);
-});
-
-test('v4 `--trace_gc_verbose', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v4_verbose.input);
-  let expected = JSON.parse(files.v4_verbose.output);
-  expect(result).toEqual(expected);
-});
-
-test('v012 `--trace_gc_verbose', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v012_verbose.input);
-  let expected = JSON.parse(files.v012_verbose.output);
-  expect(result).toEqual(expected);
-});
-
 test('oom message', () => {
   let parser = new Parser();
   let result = parser.parseAllToData(files.oom.input);
@@ -124,16 +61,36 @@ test('verbose misc', () => {
   expect(result.length).toBe(0);
 });
 
-test('v6 trace and verbose', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v6_trace_verbose.input);
-  let expected = JSON.parse(files.v6_trace_verbose.output);
-  expect(result).toEqual(expected);
-});
+const argDict = {
+  trace: '--trace_gc',
+  nvp: '--trace_gc_nvp',
+  verbose: '--trace_gc --trace_gc_verbose (verbose only)',
+  trace_verbose: '--trace_gc --trace_gc_verbose',
+  verbose_nvp: '--trace_gc --trace_gc_verbose --trace_gc_nvp'
+};
 
-test('v6 verbose and nvp', () => {
-  let parser = new Parser();
-  let result = parser.parseAllToData(files.v6_verbose_nvp.input);
-  let expected = JSON.parse(files.v6_verbose_nvp.output);
-  expect(result).toEqual(expected);
+const cases = [{
+  version: '8',
+  types: ['trace', 'nvp', 'verbose', 'trace_verbose', 'verbose_nvp']
+}, {
+  version: '6',
+  types: ['trace', 'nvp', 'verbose', 'trace_verbose', 'verbose_nvp']
+}, {
+  version: '4',
+  types: ['trace', 'nvp', 'verbose']
+}, {
+  version: '012',
+  types: ['trace', 'nvp', 'verbose']
+}];
+
+cases.forEach((cs) => {
+  cs.types.forEach((type) => {
+    test(`v${cs.version} ${argDict[type]}`, () => {
+      const key = `v${cs.version}_${type}`;
+      let parser = new Parser();
+      let result = parser.parseAllToData(files[key].input);
+      let expected = JSON.parse(files[key].output);
+      expect(result).toEqual(expected);
+    });
+  });
 });
