@@ -21,6 +21,9 @@
       "email": "joyeec9h3@gmail.com"
     }
   ],
+  "bin": {
+    "v8-gc-log-parse": "bin/parse.js"
+  },
   "license": "MIT",
   "devDependencies": {
     "istanbul": "^0.4.5",

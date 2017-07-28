@@ -5,3 +5,4 @@ coverage
 *.asm
 *.cfg
 benchmark
+package-lock.json
