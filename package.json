@@ -1,6 +1,6 @@
 {
   "name": "v8-gc-log-parser",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Parser for V8 Garbage Collection Logs",
   "main": "index.js",
   "scripts": {
