@@ -12,13 +12,21 @@ At the moment only logs produced by `--trace_gc`, `--trace_gc_nvp` and `--trace_
 
 The V8 versions used by Node.js LTS versions are supported. That is:
 
+* Node v8.x: V8 v5.8.x (will be updated to v6.x soon)
 * Node v6.x: V8 v5.1.281.x
 * Node v4.x: V8 v4.5.103.x
-* Node v0.12.x: V8 v3.28.x(Soon to be deprecated)
 
 We will drop support when the corresponding Node.js LTS version is dropped.
 
 For the grammar of these logs, see [grammar.md](doc/grammar.md).
+
+## As CLI tool
+
+```console
+npm install -g v8-gc-log-parser
+# output the result as JSON to stdout
+v8-gc-log-parse <path-to-log-file>
+```
 
 ## API
 
