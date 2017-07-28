@@ -1,0 +1,48 @@
+[
+  {
+    "pid": 20671,
+    "isolate": "0x103000000",
+    "time_since_init": 687,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 11.5,
+      "end_object_size": 7.7,
+      "start_memory_size": 18,
+      "end_memory_size": 18,
+      "pause": 0.6,
+      "external_time": 0
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 20869,
+    "isolate": "0x103001000",
+    "time_since_init": 812,
+    "data": {
+      "collector": "mark_sweep",
+      "start_object_size": 11,
+      "end_object_size": 6.8,
+      "start_memory_size": 19,
+      "end_memory_size": 19,
+      "pause": 0.8,
+      "external_time": 0,
+      "step_description": "+ 5.8 ms in 9 steps since start of marking, biggest step 1.0 ms, walltime since start of marking 12 ms"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 20671,
+    "isolate": "0x103000000",
+    "time_since_init": 930,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 10.9,
+      "end_object_size": 7.2,
+      "start_memory_size": 18.5,
+      "end_memory_size": 18.5,
+      "pause": 0.8,
+      "external_time": 0
+    },
+    "type": "trace"
+  }
+]

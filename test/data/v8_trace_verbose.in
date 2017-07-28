@@ -1,0 +1,35 @@
+[23252:0x102801600]      769 ms: Scavenge 11.8 (18.5) -> 8.0 (18.5) MB, 0.5 / 0.0 ms  allocation failure
+[23252:0x102801600] Memory allocator,   used:  18944 KB, available: 1447424 KB
+[23252:0x102801600] New space,          used:     90 KB, available:   3937 KB, committed:   8192 KB
+[23252:0x102801600] Old space,          used:   4983 KB, available:      0 KB, committed:   5120 KB
+[23252:0x102801600] Code space,         used:   2523 KB, available:      3 KB, committed:   3072KB
+[23252:0x102801600] Map space,          used:    621 KB, available:      0 KB, committed:   1024 KB
+[23252:0x102801600] Large object space, used:      0 KB, available: 1446903 KB, committed:      0 KB
+[23252:0x102801600] All spaces,         used:   8218 KB, available: 1450845 KB, committed:  17408KB
+[23252:0x102801600] External memory reported:     56 KB
+[23252:0x102801600] Total time spent in GC  : 7.0 ms
+[23252:0x102801600] Fast promotion mode: false survival rate: 3%
+[23252:0x102801600]      921 ms: Scavenge 12.0 (19.0) -> 8.2 (19.0) MB, 0.6 / 0.0 ms  allocation failure
+[23252:0x102801600] Memory allocator,   used:  19456 KB, available: 1446912 KB
+[23252:0x102801600] New space,          used:     47 KB, available:   3980 KB, committed:   8192 KB
+[23252:0x102801600] Old space,          used:   5110 KB, available:    375 KB, committed:   5632 KB
+[23252:0x102801600] Code space,         used:   2534 KB, available:      3 KB, committed:   3072KB
+[23252:0x102801600] Map space,          used:    677 KB, available:      0 KB, committed:   1024 KB
+[23252:0x102801600] Large object space, used:      0 KB, available: 1446391 KB, committed:      0 KB
+[23252:0x102801600] All spaces,         used:   8369 KB, available: 1450751 KB, committed:  17920KB
+[23252:0x102801600] External memory reported:     58 KB
+[23252:0x102801600] Total time spent in GC  : 7.6 ms
+[23252:0x102801600] Fast promotion mode: false survival rate: 4%
+[23252:0x102801600]      930 ms: Heap growing factor 4.0 based on mu=0.970, speed_ratio=0 (gc=0, mutator=7009)
+[23252:0x102801600]      930 ms: Grow: old size: 6813 KB, new limit: 31280 KB (4.0)
+[23252:0x102801600]      930 ms: Mark-sweep 8.4 (19.0) -> 6.8 (19.0) MB, 0.8 / 0.0 ms  (+ 6.2 ms in 10 steps since start of marking, biggest step 1.0 ms, walltime since start of marking 14 ms) finalize incremental marking via task GC in old space requested
+[23252:0x102801600] Memory allocator,   used:  19456 KB, available: 1446912 KB
+[23252:0x102801600] New space,          used:    145 KB, available:   3882 KB, committed:   8192 KB
+[23252:0x102801600] Old space,          used:   4233 KB, available:    469 KB, committed:   5632 KB
+[23252:0x102801600] Code space,         used:   2287 KB, available:      0 KB, committed:   3072KB
+[23252:0x102801600] Map space,          used:    292 KB, available:      0 KB, committed:   1024 KB
+[23252:0x102801600] Large object space, used:      0 KB, available: 1446391 KB, committed:      0 KB
+[23252:0x102801600] All spaces,         used:   6958 KB, available: 1450743 KB, committed:  17920KB
+[23252:0x102801600] External memory reported:     74 KB
+[23252:0x102801600] Total time spent in GC  : 8.4 ms
+[23252:0x102801600] Fast promotion mode: false survival rate: 1%
