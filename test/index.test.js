@@ -6,7 +6,7 @@ let files = {};
 
 beforeAll(() => {
   const filenames = fs.readdirSync(datadir);
-  for (filename of filenames) {
+  for (const filename of filenames) {
     if (/\.in$/.test(filename)) {
       let key = filename.replace('.in', '');
       files[key] = files[key] || {};
@@ -28,6 +28,13 @@ test('partial input', () => {
   let parser = new Parser();
   let result = parser.parseAllToData(files.partial.input);
   let expected = JSON.parse(files.partial.output);
+  expect(result).toEqual(expected);
+});
+
+test('minus value', () => {
+  let parser = new Parser();
+  let result = parser.parseAllToData(files.minus_value.input);
+  let expected = JSON.parse(files.minus_value.output);
   expect(result).toEqual(expected);
 });
 
