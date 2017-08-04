@@ -6,3 +6,5 @@ coverage
 *.cfg
 benchmark
 package-lock.json
+bundle.js
+
