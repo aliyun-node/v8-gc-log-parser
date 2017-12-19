@@ -62,6 +62,17 @@ The grammar is not regular and not LL(1)/LR(1). A hand-written recursive descent
 [43748:0x103000000] External memory reported:      0 KB
 [43748:0x103000000] Total time spent in GC  : 0.6 ms
 
+// 8.x
+[23783:0x3ee3550] Memory allocator,   used: 670600 KB, available: 3556472 KB
+[23783:0x3ee3550] New space,          used:    426 KB, available:  15685 KB, committed:  32768 KB
+[23783:0x3ee3550] Old space,          used: 126329 KB, available:    663 KB, committed: 191828 KB
+[23783:0x3ee3550] Code space,         used:   3706 KB, available:      0 KB, committed:   4608 KB
+[23783:0x3ee3550] Map space,          used:   2714 KB, available:      0 KB, committed:   6676 KB
+[23783:0x3ee3550] Large object space, used: 432914 KB, available: 3555951 KB, committed: 433184 KB
+[23783:0x3ee3550] All spaces,         used: 566091 KB, available: 3572300 KB, committed: 669064 KB
+[23783:0x3ee3550] External memory reported:  66962 KB
+[23783:0x3ee3550] External memory global 0 KB
+[23783:0x3ee3550] Total time spent in GC  : 1714037.1 ms
 
 // additional
 [90361:0x102800400] Heap growing factor 1.1 based on mu=0.970, speed_ratio=471 (gc=839959, mutator=1784)
@@ -176,6 +187,12 @@ VerboseTrace: VerboseTraceStart '\n'
               VerboseTraceHeapList  '\n'
               VerboseTraceExternal '\n'
               VerboseTraceEnd
+            | VerboseTraceStart '\n'
+              VerboseTraceHeapList  '\n'
+              VerboseTraceExternal '\n'
+              VerboseTraceExternalGlobal '\n'
+              VerboseTraceEnd
+
 
 VerboseTraceStart: MemoryAllocator ',' HeapStatsList
 MemoryAllocator: 'Memory allocator'
@@ -186,6 +203,9 @@ VerboseTraceHeap: HeapSection HeapStatsList
 
 VerboseTraceExternal: ExternalMemory ':' Number KB
 ExternalMemory: 'External memory reported'
+
+VerboseTraceExternalGlobal: ExternalMemoryGlobal ':' Number KB
+ExternalMemoryGlobal: 'External memory global'
 
 VerboseTraceEnd: TotalTime ':' Number MS
 TotalTime: 'Total time spent in GC'
