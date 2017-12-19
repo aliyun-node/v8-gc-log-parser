@@ -4,8 +4,8 @@
   "description": "Parser for V8 Garbage Collection Logs",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest test/index.test.js",
-    "build": "./node_modules/.bin/browserify -s GCLParser index.js -o bundle.js -t babelify"
+    "test": "$(npm bin)/jest test/index.test.js",
+    "build": "$(npm bin)/browserify -s GCLParser index.js -o bundle.js -t babelify"
   },
   "author": {
     "name": "Joyee Cheung",

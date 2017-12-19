@@ -1,0 +1,341 @@
+[
+  {
+    "pid": 78064,
+    "isolate": "0x103800000",
+    "time_since_init": 2249,
+    "data": {
+      "pause": 0.6,
+      "mutator": 4.3,
+      "gc": "ms",
+      "reduce_memory": 0,
+      "heap.prologue": 0,
+      "heap.epilogue": 0,
+      "heap.epilogue.reduce_new_space": 0,
+      "heap.external.prologue": 0,
+      "heap.external.epilogue": 0,
+      "heap.external.weak_global_handles": 0,
+      "clear": 0,
+      "clear.dependent_code": 0,
+      "clear.maps": 0,
+      "clear.slots_buffer": 0,
+      "clear.store_buffer": 0,
+      "clear.string_table": 0,
+      "clear.weak_cells": 0,
+      "clear.weak_collections": 0,
+      "clear.weak_lists": 0,
+      "epilogue": 0,
+      "evacuate": 0.2,
+      "evacuate.candidates": 0,
+      "evacuate.clean_up": 0,
+      "evacuate.copy": 0.1,
+      "evacuate.prologue": 0,
+      "evacuate.epilogue": 0,
+      "evacuate.rebalance": 0,
+      "evacuate.update_pointers": 0.1,
+      "evacuate.update_pointers.to_new_roots": 0,
+      "evacuate.update_pointers.slots": 0.1,
+      "evacuate.update_pointers.weak": 0,
+      "finish": 0.1,
+      "mark": 0,
+      "mark.finish_incremental": 0,
+      "mark.roots": 0,
+      "mark.weak_closure": 0,
+      "mark.weak_closure.ephemeral": 0,
+      "mark.weak_closure.weak_handles": 0,
+      "mark.weak_closure.weak_roots": 0,
+      "mark.weak_closure.harmony": 0,
+      "mark.wrapper_prologue": 0,
+      "mark.wrapper_epilogue": 0,
+      "mark.wrapper_tracing": 0,
+      "prologue": 0,
+      "sweep": 0,
+      "sweep.code": 0,
+      "sweep.map": 0,
+      "sweep.old": 0,
+      "incremental": 3.8,
+      "incremental.finalize": 0.2,
+      "incremental.finalize.body": 0.2,
+      "incremental.finalize.external.prologue": 0,
+      "incremental.finalize.external.epilogue": 0,
+      "incremental.sweeping": 0,
+      "incremental.wrapper_prologue": 0,
+      "incremental.wrapper_tracing": 0,
+      "incremental_wrapper_tracing_longest_step": 0,
+      "incremental_finalize_longest_step": 0.1,
+      "incremental_finalize_steps_count": 2,
+      "incremental_longest_step": 0.9,
+      "incremental_steps_count": 8,
+      "incremental_marking_throughput": 1528902,
+      "incremental_walltime_duration": 5,
+      "total_size_before": 8482896,
+      "total_size_after": 5981608,
+      "holes_size_before": 374920,
+      "holes_size_after": 486336,
+      "allocated": 14056,
+      "promoted": 6200,
+      "semi_space_copied": 5576,
+      "nodes_died_in_new": 0,
+      "nodes_copied_in_new": 2,
+      "nodes_promoted": 0,
+      "promotion_ratio": 10.4,
+      "average_survival_ratio": 4.1,
+      "promotion_rate": 13.6,
+      "semi_space_copy_rate": 9.3,
+      "new_space_allocation_throughput": 32236.7,
+      "unmapper_chunks": 0,
+      "unmapper_delayed_chunks": 0,
+      "context_disposal_rate": 0,
+      "compaction_speed": 250751
+    },
+    "type": "nvp"
+  },
+  {
+    "pid": 78064,
+    "isolate": "0x103800000",
+    "external_memory_global": 0,
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "start": 19304,
+        "used": 19304,
+        "promotion": 6,
+        "available": 1447064
+      },
+      "new_space": {
+        "start": 58,
+        "used": 5,
+        "available": 4022,
+        "committed": 8192,
+        "promoted": 6
+      },
+      "old_space": {
+        "start": 5393,
+        "used": 3956,
+        "available": 474,
+        "committed": 5972
+      },
+      "code_space": {
+        "start": 1611,
+        "used": 1592,
+        "available": 0,
+        "committed": 2048
+      },
+      "map_space": {
+        "start": 1221,
+        "used": 287,
+        "available": 0,
+        "committed": 1556
+      },
+      "large_object_space": {
+        "start": 0,
+        "used": 0,
+        "available": 1446543,
+        "committed": 0
+      },
+      "all_spaces": {
+        "start": 8284,
+        "used": 5841,
+        "available": 1451040,
+        "committed": 17768
+      },
+      "external_memory_reported": 79,
+      "total_time_spent_in_gc": 11.8
+    }
+  },
+  {
+    "pid": 78064,
+    "isolate": "0x103800000",
+    "time_since_init": 2370,
+    "data": {
+      "pause": 0.3,
+      "mutator": 120.6,
+      "gc": "s",
+      "reduce_memory": 0,
+      "heap.prologue": 0,
+      "heap.epilogue": 0,
+      "heap.epilogue.reduce_new_space": 0,
+      "heap.external.prologue": 0,
+      "heap.external.epilogue": 0,
+      "heap.external_weak_global_handles": 0,
+      "scavenge": 0.21,
+      "evacuate": 0,
+      "old_new": 0.06,
+      "weak": 0,
+      "roots": 0.02,
+      "semispace": 0.04,
+      "steps_count": 0,
+      "steps_took": 0,
+      "scavenge_throughput": 11458808,
+      "total_size_before": 10209712,
+      "total_size_after": 6128584,
+      "holes_size_before": 2217344,
+      "holes_size_after": 2217208,
+      "allocated": 4228104,
+      "promoted": 136,
+      "semi_space_copied": 43392,
+      "nodes_died_in_new": 5,
+      "nodes_copied_in_new": 4,
+      "nodes_promoted": 0,
+      "promotion_ratio": 0,
+      "average_survival_ratio": 3.9,
+      "promotion_rate": 2.4,
+      "semi_space_copy_rate": 1.1,
+      "new_space_allocation_throughput": 32363.7,
+      "unmapper_chunks": 0,
+      "unmapper_delayed_chunks": 0,
+      "context_disposal_rate": 0
+    },
+    "type": "nvp"
+  },
+  {
+    "pid": 78064,
+    "isolate": "0x103800000",
+    "external_memory_global": 0,
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "start": 19304,
+        "used": 19304,
+        "promotion": 0,
+        "available": 1447064
+      },
+      "new_space": {
+        "start": 4027,
+        "used": 42,
+        "available": 3985,
+        "committed": 8192,
+        "promoted": 0
+      },
+      "old_space": {
+        "start": 4001,
+        "used": 4001,
+        "available": 1842,
+        "committed": 5972
+      },
+      "code_space": {
+        "start": 1600,
+        "used": 1600,
+        "available": 321,
+        "committed": 2048
+      },
+      "map_space": {
+        "start": 340,
+        "used": 340,
+        "available": 1176,
+        "committed": 1556
+      },
+      "large_object_space": {
+        "start": 0,
+        "used": 0,
+        "available": 1446543,
+        "committed": 0
+      },
+      "all_spaces": {
+        "start": 9970,
+        "used": 5984,
+        "available": 1453869,
+        "committed": 17768
+      },
+      "external_memory_reported": 28,
+      "total_time_spent_in_gc": 12
+    }
+  },
+  {
+    "pid": 78064,
+    "isolate": "0x103800000",
+    "time_since_init": 2492,
+    "data": {
+      "pause": 0.3,
+      "mutator": 121.2,
+      "gc": "s",
+      "reduce_memory": 0,
+      "heap.prologue": 0,
+      "heap.epilogue": 0,
+      "heap.epilogue.reduce_new_space": 0,
+      "heap.external.prologue": 0,
+      "heap.external.epilogue": 0,
+      "heap.external_weak_global_handles": 0,
+      "scavenge": 0.26,
+      "evacuate": 0,
+      "old_new": 0.09,
+      "weak": 0,
+      "roots": 0.02,
+      "semispace": 0.06,
+      "steps_count": 0,
+      "steps_took": 0,
+      "scavenge_throughput": 12297421,
+      "total_size_before": 10331448,
+      "total_size_after": 6279072,
+      "holes_size_before": 2094992,
+      "holes_size_after": 2067256,
+      "allocated": 4202864,
+      "promoted": 27736,
+      "semi_space_copied": 44536,
+      "nodes_died_in_new": 7,
+      "nodes_copied_in_new": 3,
+      "nodes_promoted": 0,
+      "promotion_ratio": 0.7,
+      "average_survival_ratio": 3.9,
+      "promotion_rate": 63.9,
+      "semi_space_copy_rate": 1.1,
+      "new_space_allocation_throughput": 32520.5,
+      "unmapper_chunks": 0,
+      "unmapper_delayed_chunks": 0,
+      "context_disposal_rate": 0
+    },
+    "type": "nvp"
+  },
+  {
+    "pid": 78064,
+    "isolate": "0x103800000",
+    "external_memory_global": 0,
+    "type": "verbose",
+    "data": {
+      "memory_allocator": {
+        "start": 19304,
+        "used": 19304,
+        "promotion": 27,
+        "available": 1447064
+      },
+      "new_space": {
+        "start": 4027,
+        "used": 43,
+        "available": 3984,
+        "committed": 8192,
+        "promoted": 27
+      },
+      "old_space": {
+        "start": 4053,
+        "used": 4080,
+        "available": 1695,
+        "committed": 5972
+      },
+      "code_space": {
+        "start": 1615,
+        "used": 1615,
+        "available": 321,
+        "committed": 2048
+      },
+      "map_space": {
+        "start": 393,
+        "used": 393,
+        "available": 1110,
+        "committed": 1556
+      },
+      "large_object_space": {
+        "start": 0,
+        "used": 0,
+        "available": 1446543,
+        "committed": 0
+      },
+      "all_spaces": {
+        "start": 10089,
+        "used": 6131,
+        "available": 1453656,
+        "committed": 17768
+      },
+      "external_memory_reported": 32,
+      "total_time_spent_in_gc": 12.3
+    }
+  }
+]

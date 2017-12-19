@@ -77,23 +77,26 @@ const argDict = {
 };
 
 const cases = [{
-  version: '8',
+  version: 'alinode_v3',
   types: ['trace', 'nvp', 'verbose', 'trace_verbose', 'verbose_nvp']
 }, {
-  version: '6',
+  version: 'v8',
   types: ['trace', 'nvp', 'verbose', 'trace_verbose', 'verbose_nvp']
 }, {
-  version: '4',
+  version: 'v6',
+  types: ['trace', 'nvp', 'verbose', 'trace_verbose', 'verbose_nvp']
+}, {
+  version: 'v4',
   types: ['trace', 'nvp', 'verbose']
 }, {
-  version: '012',
+  version: 'v012',
   types: ['trace', 'nvp', 'verbose']
 }];
 
 cases.forEach((cs) => {
   cs.types.forEach((type) => {
-    test(`v${cs.version} ${argDict[type]}`, () => {
-      const key = `v${cs.version}_${type}`;
+    test(`${cs.version} ${argDict[type]}`, () => {
+      const key = `${cs.version}_${type}`;
       let parser = new Parser();
       let result = parser.parseAllToData(files[key].input);
       let expected = JSON.parse(files[key].output);

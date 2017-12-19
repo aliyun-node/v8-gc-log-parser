@@ -1,0 +1,3 @@
+[77580:0x102801600]     2195 ms: Scavenge 12.0 (18.9) -> 8.2 (18.9) MB, 0.4 / 0.0 ms  allocation failure 
+[77580:0x102801600]     2201 ms: Mark-sweep 8.2 (18.9) -> 5.9 (18.9) MB, 0.6 / 0.0 ms  (+ 5.1 ms in 10 steps since start of marking, biggest step 1.1 ms, walltime since start of marking 6 ms) finalize incremental marking via task GC in old space requested
+[77580:0x102801600]     2322 ms: Scavenge 10.0 (18.9) -> 6.1 (18.9) MB, 0.2 / 0.0 ms  allocation failure 

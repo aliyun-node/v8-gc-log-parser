@@ -1,0 +1,39 @@
+
+[78064:0x103800000]     2249 ms: Heap growing factor 1.7 based on mu=0.970, speed_ratio=0 (gc=0, mutator=1425)
+[78064:0x103800000]     2249 ms: Grow: old size: 5835 KB, new limit: 18055 KB (1.7)
+[78064:0x103800000]     2249 ms: pause=0.6 mutator=4.3 gc=ms reduce_memory=0 heap.prologue=0.00 heap.epilogue=0.00 heap.epilogue.reduce_new_space=0.00 heap.external.prologue=0.0 heap.external.epilogue=0.0 heap.external.weak_global_handles=0.0 clear=0 clear.dependent_code=0.0 clear.maps=0.0 clear.slots_buffer=0.0 clear.store_buffer=0.0 clear.string_table=0.0 clear.weak_cells=0.0 clear.weak_collections=0.0 clear.weak_lists=0.0 epilogue=0.0 evacuate=0.2 evacuate.candidates=0.0 evacuate.clean_up=0.0 evacuate.copy=0.1 evacuate.prologue=0.0 evacuate.epilogue=0.0 evacuate.rebalance=0.0 evacuate.update_pointers=0.1 evacuate.update_pointers.to_new_roots=0.0 evacuate.update_pointers.slots=0.1 evacuate.update_pointers.weak=0.0 finish=0.1 mark=0.0 mark.finish_incremental=0.0 mark.roots=0.0 mark.weak_closure=0.0 mark.weak_closure.ephemeral=0.0 mark.weak_closure.weak_handles=0.0 mark.weak_closure.weak_roots=0.0 mark.weak_closure.harmony=0.0 mark.wrapper_prologue=0.0 mark.wrapper_epilogue=0.0 mark.wrapper_tracing=0.0 prologue=0.0 sweep=0.0 sweep.code=0.0 sweep.map=0.0 sweep.old=0.0 incremental=3.8 incremental.finalize=0.2 incremental.finalize.body=0.2 incremental.finalize.external.prologue=0.0 incremental.finalize.external.epilogue=0.0 incremental.sweeping=0.0 incremental.wrapper_prologue=0.0 incremental.wrapper_tracing=0.0 incremental_wrapper_tracing_longest_step=0.0 incremental_finalize_longest_step=0.1 incremental_finalize_steps_count=2 incremental_longest_step=0.9 incremental_steps_count=8 incremental_marking_throughput=1528902 incremental_walltime_duration=5 total_size_before=8482896 total_size_after=5981608 holes_size_before=374920 holes_size_after=486336 allocated=14056 promoted=6200 semi_space_copied=5576 nodes_died_in_new=0 nodes_copied_in_new=2 nodes_promoted=0 promotion_ratio=10.4% average_survival_ratio=4.1% promotion_rate=13.6% semi_space_copy_rate=9.3% new_space_allocation_throughput=32236.7 unmapper_chunks=0 unmapper_delayed_chunks=0 context_disposal_rate=0.0 compaction_speed=250751
+[78064:0x103800000] Memory allocator,   start:  19304 KB, used:  19304 KB, promotion:      6 KB, available: 1447064 KB
+[78064:0x103800000] New space,   start:     58 KB, used:      5 KB, available:   4022 KB, committed:   8192 KB, promoted:      6 KB
+[78064:0x103800000] Old space,          start:   5393 KB, used:   3956 KB, available:    474 KB, committed:   5972 KB
+[78064:0x103800000] Code space,         start:   1611 KB, used:   1592 KB, available:      0 KB, committed:   2048 KB
+[78064:0x103800000] Map space,          start:   1221 KB, used:    287 KB, available:      0 KB, committed:   1556 KB
+[78064:0x103800000] Large object space, start:      0 KB, used:      0 KB, available: 1446543 KB, committed:      0 KB
+[78064:0x103800000] All spaces,         start:   8284 KB, used:   5841 KB, available: 1451040 KB, committed:  17768 KB
+[78064:0x103800000] External memory reported:     79 KB
+[78064:0x103800000] External memory global 0 KB
+[78064:0x103800000] Total time spent in GC  : 11.8 ms
+[78064:0x103800000] Fast promotion mode: false survival rate: 1%
+[78064:0x103800000]     2370 ms: pause=0.3 mutator=120.6 gc=s reduce_memory=0 heap.prologue=0.00 heap.epilogue=0.00 heap.epilogue.reduce_new_space=0.00 heap.external.prologue=0.00 heap.external.epilogue=0.00 heap.external_weak_global_handles=0.00 scavenge=0.21 evacuate=0.00 old_new=0.06 weak=0.00 roots=0.02 semispace=0.04 steps_count=0 steps_took=0.0 scavenge_throughput=11458808 total_size_before=10209712 total_size_after=6128584 holes_size_before=2217344 holes_size_after=2217208 allocated=4228104 promoted=136 semi_space_copied=43392 nodes_died_in_new=5 nodes_copied_in_new=4 nodes_promoted=0 promotion_ratio=0.0% average_survival_ratio=3.9% promotion_rate=2.4% semi_space_copy_rate=1.1% new_space_allocation_throughput=32363.7 unmapper_chunks=0 unmapper_delayed_chunks=0 context_disposal_rate=0.0
+[78064:0x103800000] Memory allocator,   start:  19304 KB, used:  19304 KB, promotion:      0 KB, available: 1447064 KB
+[78064:0x103800000] New space,   start:   4027 KB, used:     42 KB, available:   3985 KB, committed:   8192 KB, promoted:      0 KB
+[78064:0x103800000] Old space,          start:   4001 KB, used:   4001 KB, available:   1842 KB, committed:   5972 KB
+[78064:0x103800000] Code space,         start:   1600 KB, used:   1600 KB, available:    321 KB, committed:   2048 KB
+[78064:0x103800000] Map space,          start:    340 KB, used:    340 KB, available:   1176 KB, committed:   1556 KB
+[78064:0x103800000] Large object space, start:      0 KB, used:      0 KB, available: 1446543 KB, committed:      0 KB
+[78064:0x103800000] All spaces,         start:   9970 KB, used:   5984 KB, available: 1453869 KB, committed:  17768 KB
+[78064:0x103800000] External memory reported:     28 KB
+[78064:0x103800000] External memory global 0 KB
+[78064:0x103800000] Total time spent in GC  : 12.0 ms
+[78064:0x103800000] Fast promotion mode: false survival rate: 1%
+[78064:0x103800000]     2492 ms: pause=0.3 mutator=121.2 gc=s reduce_memory=0 heap.prologue=0.00 heap.epilogue=0.00 heap.epilogue.reduce_new_space=0.00 heap.external.prologue=0.00 heap.external.epilogue=0.00 heap.external_weak_global_handles=0.00 scavenge=0.26 evacuate=0.00 old_new=0.09 weak=0.00 roots=0.02 semispace=0.06 steps_count=0 steps_took=0.0 scavenge_throughput=12297421 total_size_before=10331448 total_size_after=6279072 holes_size_before=2094992 holes_size_after=2067256 allocated=4202864 promoted=27736 semi_space_copied=44536 nodes_died_in_new=7 nodes_copied_in_new=3 nodes_promoted=0 promotion_ratio=0.7% average_survival_ratio=3.9% promotion_rate=63.9% semi_space_copy_rate=1.1% new_space_allocation_throughput=32520.5 unmapper_chunks=0 unmapper_delayed_chunks=0 context_disposal_rate=0.0
+[78064:0x103800000] Memory allocator,   start:  19304 KB, used:  19304 KB, promotion:     27 KB, available: 1447064 KB
+[78064:0x103800000] New space,   start:   4027 KB, used:     43 KB, available:   3984 KB, committed:   8192 KB, promoted:     27 KB
+[78064:0x103800000] Old space,          start:   4053 KB, used:   4080 KB, available:   1695 KB, committed:   5972 KB
+[78064:0x103800000] Code space,         start:   1615 KB, used:   1615 KB, available:    321 KB, committed:   2048 KB
+[78064:0x103800000] Map space,          start:    393 KB, used:    393 KB, available:   1110 KB, committed:   1556 KB
+[78064:0x103800000] Large object space, start:      0 KB, used:      0 KB, available: 1446543 KB, committed:      0 KB
+[78064:0x103800000] All spaces,         start:  10089 KB, used:   6131 KB, available: 1453656 KB, committed:  17768 KB
+[78064:0x103800000] External memory reported:     32 KB
+[78064:0x103800000] External memory global 0 KB
+[78064:0x103800000] Total time spent in GC  : 12.3 ms
+[78064:0x103800000] Fast promotion mode: false survival rate: 1%

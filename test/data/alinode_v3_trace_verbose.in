@@ -1,0 +1,28 @@
+[77437:0x102801600] Shrinking page 0x1f3efbe00000: end 0x1f3efbe80000 -> 0x1f3efbe55000
+[77437:0x102801600] Shrinking page 0x1f3ec3180000: end 0x1f3ec3200000 -> 0x1f3ec3185000
+[77437:0x102801600] Fast promotion mode: false survival rate: 70%
+[77437:0x102801600]       43 ms: Scavenge 3.5 (6.4) -> 3.2 (7.4) MB, 1.0 / 0.0 ms  allocation failure 
+[77437:0x102801600] Memory allocator,   start:   6504 KB, used:   7528 KB, promotion:      0 KB, available: 1458840 KB
+[77437:0x102801600] New space,   start:    983 KB, used:    710 KB, available:    296 KB, committed:   2048 KB, promoted:      0 KB
+[77437:0x102801600] Old space,          start:   1200 KB, used:   1200 KB, available:      0 KB, committed:   1364 KB
+[77437:0x102801600] Code space,         start:   1174 KB, used:   1174 KB, available:      0 KB, committed:   2048 KB
+[77437:0x102801600] Map space,          start:    175 KB, used:    175 KB, available:      0 KB, committed:    532 KB
+[77437:0x102801600] Large object space, start:      0 KB, used:      0 KB, available: 1458319 KB, committed:      0 KB
+[77437:0x102801600] All spaces,         start:   3534 KB, used:   3260 KB, available: 1458616 KB, committed:   5992 KB
+[77437:0x102801600] External memory reported:      8 KB
+[77437:0x102801600] External memory global 0 KB
+[77437:0x102801600] Total time spent in GC  : 1.0 ms
+[77437:0x102801600] Fast promotion mode: false survival rate: 91%[77437:0x102801600]     2650 ms: Heap growing factor 1.7 based on mu=0.970, speed_ratio=0 (gc=0, mutator=1098)
+[77437:0x102801600]     2650 ms: Grow: old size: 5910 KB, new limit: 18130 KB (1.7)
+[77437:0x102801600]     2650 ms: Mark-sweep 8.2 (18.9) -> 5.8 (18.9) MB, 0.7 / 0.0 ms  (+ 3.8 ms in 7 steps since start of marking, biggest step 0.9 ms, walltime since start of marking 5 ms) finalize incremental marking via task GC in old space requested
+[77437:0x102801600] Memory allocator,   start:  19304 KB, used:  19304 KB, promotion:     11 KB, available: 1447064 KB
+[77437:0x102801600] New space,   start:     98 KB, used:     15 KB, available:   4012 KB, committed:   8192 KB, promoted:     11 KB
+[77437:0x102801600] Old space,          start:   5318 KB, used:   4005 KB, available:    472 KB, committed:   5972 KB
+[77437:0x102801600] Code space,         start:   1643 KB, used:   1617 KB, available:      0 KB, committed:   2048 KB
+[77437:0x102801600] Map space,          start:   1384 KB, used:    287 KB, available:      0 KB, committed:   1556 KB
+[77437:0x102801600] Large object space, start:      0 KB, used:      0 KB, available: 1446543 KB, committed:      0 KB
+[77437:0x102801600] All spaces,         start:   8445 KB, used:   5925 KB, available: 1451029 KB, committed:  17768 KB
+[77437:0x102801600] External memory reported:     27 KB
+[77437:0x102801600] External memory global 0 KB
+[77437:0x102801600] Total time spent in GC  : 12.4 ms
+[77437:0x102801600] Fast promotion mode: false survival rate: 1%

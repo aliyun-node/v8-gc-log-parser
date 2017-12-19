@@ -1,0 +1,46 @@
+[82132:0x103000000] Memory allocator,   used:  20816 KB, available: 1445552 KB
+[82132:0x103000000] New space,          used:     82 KB, available:   3945 KB, committed:   8192 KB
+[82132:0x103000000] Old space,          used:   5240 KB, available:   1837 KB, committed:   7484 KB
+[82132:0x103000000] Code space,         used:   1648 KB, available:      0 KB, committed:   2048KB
+[82132:0x103000000] Map space,          used:   1401 KB, available:      0 KB, committed:   1556 KB
+[82132:0x103000000] Large object space, used:      0 KB, available: 1445031 KB, committed:      0 KB
+[82132:0x103000000] All spaces,         used:   8373 KB, available: 1450815 KB, committed:  19280KB
+[82132:0x103000000] External memory reported:     50 KB
+[82132:0x103000000] External memory global 0 KB
+[82132:0x103000000] Total time spent in GC  : 12.7 ms
+[82132:0x103000000] Fast promotion mode: false survival rate: 0%
+[82132:0x103000000]     2679 ms: Heap growing factor 1.7 based on mu=0.970, speed_ratio=0 (gc=0, mutator=1235)
+[82132:0x103000000]     2679 ms: Grow: old size: 5811 KB, new limit: 18031 KB (1.7)
+[82132:0x103000000] Memory allocator,   used:  19280 KB, available: 1447088 KB
+[82132:0x103000000] New space,          used:      8 KB, available:   4019 KB, committed:   8192 KB
+[82132:0x103000000] Old space,          used:   3888 KB, available:   1579 KB, committed:   5948 KB
+[82132:0x103000000] Code space,         used:   1630 KB, available:      0 KB, committed:   2048KB
+[82132:0x103000000] Map space,          used:    291 KB, available:      0 KB, committed:   1556 KB
+[82132:0x103000000] Large object space, used:      0 KB, available: 1446567 KB, committed:      0 KB
+[82132:0x103000000] All spaces,         used:   5819 KB, available: 1452166 KB, committed:  17744KB
+[82132:0x103000000] External memory reported:     51 KB
+[82132:0x103000000] External memory global 0 KB
+[82132:0x103000000] Total time spent in GC  : 13.7 ms
+[82132:0x103000000] Fast promotion mode: false survival rate: 1%
+[82132:0x103000000] Memory allocator,   used:  19280 KB, available: 1447088 KB
+[82132:0x103000000] New space,          used:     50 KB, available:   3977 KB, committed:   8192 KB
+[82132:0x103000000] Old space,          used:   3921 KB, available:   1895 KB, committed:   5948 KB
+[82132:0x103000000] Code space,         used:   1632 KB, available:    331 KB, committed:   2048KB
+[82132:0x103000000] Map space,          used:    353 KB, available:   1168 KB, committed:   1556 KB
+[82132:0x103000000] Large object space, used:      0 KB, available: 1446567 KB, committed:      0 KB
+[82132:0x103000000] All spaces,         used:   5958 KB, available: 1453939 KB, committed:  17744KB
+[82132:0x103000000] External memory reported:     28 KB
+[82132:0x103000000] External memory global 0 KB
+[82132:0x103000000] Total time spent in GC  : 14.1 ms
+[82132:0x103000000] Fast promotion mode: false survival rate: 1%
+[82132:0x103000000] Memory allocator,   used:  19280 KB, available: 1447088 KB
+[82132:0x103000000] New space,          used:     98 KB, available:   3929 KB, committed:   8192 KB
+[82132:0x103000000] Old space,          used:   3988 KB, available:   1812 KB, committed:   5948 KB
+[82132:0x103000000] Code space,         used:   1635 KB, available:    331 KB, committed:   2048KB
+[82132:0x103000000] Map space,          used:    415 KB, available:   1039 KB, committed:   1556 KB
+[82132:0x103000000] Large object space, used:      0 KB, available: 1446567 KB, committed:      0 KB
+[82132:0x103000000] All spaces,         used:   6137 KB, available: 1453680 KB, committed:  17744KB
+[82132:0x103000000] External memory reported:     30 KB
+[82132:0x103000000] External memory global 0 KB
+[82132:0x103000000] Total time spent in GC  : 14.4 ms
+[82132:0x103000000] Fast promotion mode: false survival rate: 2%
