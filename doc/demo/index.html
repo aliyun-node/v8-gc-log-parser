@@ -23,9 +23,11 @@
 
   <h2>Choose type of logs</h2>
   <div>
-    <button class="j-log-switch" id="simple" value="simple">Simple</button>
+    <button class="j-log-switch" id="trace" value="trace">Trace</button>
     <button class="j-log-switch" id="verbose" value="verbose">Verbose</button>
     <button class="j-log-switch" id="NVP" value="nvp">NVP</button>
+    <button class="j-log-switch" id="verbose_nvp" value="verbose_nvp">verbose+nvp</button>
+    <button class="j-log-switch" id="trace_verbose" value="trace_verbose">verbose+trace</button>
     <button id="custom" value="custom">Custom input</button>
   </div>
   
@@ -36,5 +38,7 @@
   <h2>Result</h2>
   <pre id="result" class="result"></pre>
   <script src="./bundle.js"></script>
+  <script src="./alinodeParse.js"></script>
+  <script src="./demo.js"></script>
 </body>
 </html>
