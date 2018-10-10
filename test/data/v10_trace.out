@@ -1,0 +1,50 @@
+[
+  {
+    "pid": 25830,
+    "isolate": "0x4523210",
+    "time_since_init": 30656,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 592.8,
+      "end_object_size": 579.8,
+      "start_memory_size": 689.7,
+      "end_memory_size": 690.2,
+      "pause": 2.6,
+      "external_time": 0,
+      "step_description": "average mu = 0.981, current mu = 0.986"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 25830,
+    "isolate": "0x4523210",
+    "time_since_init": 30694,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 594.2,
+      "end_object_size": 581.2,
+      "start_memory_size": 690.2,
+      "end_memory_size": 691.2,
+      "pause": 3,
+      "external_time": 0,
+      "step_description": "average mu = 0.981, current mu = 0.986"
+    },
+    "type": "trace"
+  },
+  {
+    "pid": 25830,
+    "isolate": "0x4523210",
+    "time_since_init": 30743,
+    "data": {
+      "collector": "scavenge",
+      "start_object_size": 595.4,
+      "end_object_size": 582.4,
+      "start_memory_size": 691.2,
+      "end_memory_size": 691.7,
+      "pause": 3,
+      "external_time": 0,
+      "step_description": "average mu = 0.981, current mu = 0.986"
+    },
+    "type": "trace"
+  }
+]
