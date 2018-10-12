@@ -80,6 +80,9 @@ const cases = [{
   version: 'alinode_v3',
   types: ['trace', 'nvp', 'verbose', 'trace_verbose', 'verbose_nvp']
 }, {
+  version: 'v10',
+  types: ['trace', 'nvp', 'verbose', 'trace_verbose', 'verbose_nvp']
+}, {
   version: 'v8',
   types: ['trace', 'nvp', 'verbose', 'trace_verbose', 'verbose_nvp']
 }, {

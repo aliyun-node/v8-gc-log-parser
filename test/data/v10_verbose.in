@@ -1,0 +1,36 @@
+[25830:0x4523210] Memory allocator,   start: 708308 KB, used: 709332 KB, promotion:   1332 KB, available: 782124 KB
+[25830:0x4523210] Read-only space,   start:     34 KB, used:     34 KB, available:    469 KB, committed:    512 KB
+[25830:0x4523210] New space,   start:  16111 KB, used:   1613 KB, available:  14498 KB, committed:  32768 KB, promoted:   1332 KB
+[25830:0x4523210] Old space,          start: 567089 KB, used: 568421 KB, available:  65863 KB, committed: 645348 KB
+[25830:0x4523210] Code space,         start:   3616 KB, used:   3616 KB, available:    807 KB, committed:   4608 KB
+[25830:0x4523210] Map space,          start:   2072 KB, used:   2072 KB, available:    146 KB, committed:   2572 KB
+[25830:0x4523210] Large object space, start:  22161 KB, used:  22161 KB, available: 781603 KB, committed:  23524 KB
+[25830:0x4523210] All spaces,         start: 611051 KB, used: 597920 KB, available: 863388 KB, committed: 709332 KB
+[25830:0x4523210] External memory reported:  65369 KB
+[25830:0x4523210] External memory global 0 KB
+[25830:0x4523210] Total time spent in GC  : 1767.1 ms
+[25830:0x4523210] Fast promotion mode: false survival rate: 16%
+[25830:0x4523210] Memory allocator,   start: 709332 KB, used: 710868 KB, promotion:   1349 KB, available: 780588 KB
+[25830:0x4523210] Read-only space,   start:     34 KB, used:     34 KB, available:    469 KB, committed:    512 KB
+[25830:0x4523210] New space,   start:  16111 KB, used:   1361 KB, available:  14750 KB, committed:  32768 KB, promoted:   1349 KB
+[25830:0x4523210] Old space,          start: 568441 KB, used: 569790 KB, available:  66004 KB, committed: 646884 KB
+[25830:0x4523210] Code space,         start:   3616 KB, used:   3616 KB, available:    807 KB, committed:   4608 KB
+[25830:0x4523210] Map space,          start:   2072 KB, used:   2072 KB, available:    146 KB, committed:   2572 KB
+[25830:0x4523210] Large object space, start:  22161 KB, used:  22161 KB, available: 780067 KB, committed:  23524 KB
+[25830:0x4523210] All spaces,         start: 612404 KB, used: 599037 KB, available: 862246 KB, committed: 710868 KB
+[25830:0x4523210] External memory reported:  65530 KB
+[25830:0x4523210] External memory global 0 KB
+[25830:0x4523210] Total time spent in GC  : 1769.9 ms
+[25830:0x4523210] Fast promotion mode: false survival rate: 16%
+[25830:0x4523210] Memory allocator,   start: 710868 KB, used: 711892 KB, promotion:   1213 KB, available: 779564 KB
+[25830:0x4523210] Read-only space,   start:     34 KB, used:     34 KB, available:    469 KB, committed:    512 KB
+[25830:0x4523210] New space,   start:  16111 KB, used:   1535 KB, available:  14576 KB, committed:  32768 KB, promoted:   1213 KB
+[25830:0x4523210] Old space,          start: 569813 KB, used: 571026 KB, available:  65775 KB, committed: 647908 KB
+[25830:0x4523210] Code space,         start:   3616 KB, used:   3616 KB, available:    807 KB, committed:   4608 KB
+[25830:0x4523210] Map space,          start:   2073 KB, used:   2073 KB, available:    146 KB, committed:   2572 KB
+[25830:0x4523210] Large object space, start:  22161 KB, used:  22161 KB, available: 779043 KB, committed:  23524 KB
+[25830:0x4523210] All spaces,         start: 613776 KB, used: 600448 KB, available: 860818 KB, committed: 711892 KB
+[25830:0x4523210] External memory reported:  65799 KB
+[25830:0x4523210] External memory global 0 KB
+[25830:0x4523210] Total time spent in GC  : 1772.6 ms
+[25830:0x4523210] Fast promotion mode: false survival rate: 15%

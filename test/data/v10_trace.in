@@ -1,0 +1,3 @@
+[25830:0x4523210]    30656 ms: Scavenge 592.8 (689.7) -> 579.8 (690.2) MB, 2.6 / 0.0 ms  (average mu = 0.981, current mu = 0.986) allocation failure 
+[25830:0x4523210]    30694 ms: Scavenge 594.2 (690.2) -> 581.2 (691.2) MB, 3.0 / 0.0 ms  (average mu = 0.981, current mu = 0.986) allocation failure 
+[25830:0x4523210]    30743 ms: Scavenge 595.4 (691.2) -> 582.4 (691.7) MB, 3.0 / 0.0 ms  (average mu = 0.981, current mu = 0.986) allocation failure 
